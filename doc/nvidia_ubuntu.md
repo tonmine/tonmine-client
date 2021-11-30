@@ -13,7 +13,7 @@ sudo add-apt-repository "deb https://developer.download.nvidia.com/compute/cuda/
 sudo apt-get update
 sudo apt-get -y install cuda
 ```
-> Need to reboot after installation
+> Need to reboot after installation `sudo reboot -f`
 
 **ubuntu 20.04 cuda installation**
 ```
@@ -24,18 +24,29 @@ sudo add-apt-repository "deb https://developer.download.nvidia.com/compute/cuda/
 sudo apt-get update
 sudo apt-get -y install cuda
 ```
-> Need to reboot after installation
+> Need to reboot after installation `sudo reboot -f`
 
-## 2. Download and install the mining client
-
-**Install opencl environment**
+## 2. Install opencl environment
 ```
 sudo apt-get update
-sudo apt-get upgrade -y python3
+sudo apt-get upgrade -y python3 python3-pip
 sudo apt-get install -y opencl-headers ocl-icd-libopencl1 ocl-icd-opencl-dev clinfo
 ```
 
-**Create a mining directory and download the client**
+## 3. Download and install the mining client
+
+**for ubuntu 18.04**
+```
+cd ~
+sudo rm -r tonmine*
+mkdir tonmine
+cd tonmine
+wget https://github.com/tonmine/tonmine-client/releases/download/v0.2/tonmine-hiveos.tar.gz
+tar zxvf tonmine-hiveos.tar.gz
+pip3 install -r requirements.txt
+```
+
+**for ubuntu 20.04**
 ```
 cd ~
 sudo rm -r tonmine*
@@ -43,9 +54,10 @@ mkdir tonmine
 cd tonmine
 wget https://github.com/tonmine/tonmine-client/releases/download/v0.2/tonmine-ubuntu.tar.gz
 tar zxvf tonmine-ubuntu.tar.gz
+pip3 install -r requirements.txt
 ```
 
-## 3. Start mining
+## 4. Start mining
 
 **Mining command description：**
 

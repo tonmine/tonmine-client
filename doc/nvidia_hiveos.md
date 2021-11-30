@@ -1,15 +1,13 @@
 # Hiveos mining client installation
 
-## 1. Download and install the mining client
-
-**Install opencl environment**
+## 1. Install opencl environment
 ```
 sudo apt-get update
-sudo apt-get upgrade -y python3
+sudo apt-get upgrade -y python3 python3-pip
 sudo apt-get install -y opencl-headers ocl-icd-libopencl1 ocl-icd-opencl-dev clinfo
 ```
 
-**Create a mining directory and download the client**
+## 2. Create a mining directory and download the client
 ```
 cd ~
 sudo rm -r tonmine*
@@ -17,9 +15,10 @@ mkdir tonmine
 cd tonmine
 wget https://github.com/tonmine/tonmine-client/releases/download/v0.2/tonmine-hiveos.tar.gz
 tar zxvf tonmine-hiveos.tar.gz
+pip3 install -r requirements.txt
 ```
 
-## 2. Start mining
+## 3. Start mining
 
 **Mining command description：**
 
