@@ -24,16 +24,27 @@
 
 ## Graphics card hash rate test
 
-| Graphics card name   | Hash rate | Graphics card name | Hash rate |
-| -------------------- | --------- | ------------------ | --------- |
-| NVIDIA GTX1060       |           | NVIDIA RTX3060     |           |
-| NVIDIA GTX1070       |           | NVIDIA RTX3060 Ti  | 1.81 GH/s |
-| NVIDIA GTX1070 Ti    |           | NVIDIA RTX3070     | 2.19 GH/s |
-| NVIDIA GTX1080       |           | NVIDIA RTX3070 Ti  |           |
-| NVIDIA GTX1080 Ti    |           | NVIDIA RTX3080     | 3.3 GH/s  |
-| NVIDIA GTX1660 Ti    |           | NVIDIA RTX3080 Ti  | 3.91 GH/s |
-| NVIDIA GTX1660 Super |           | NVIDIA RTX3090     | 3.88 GH/s |
-| NVIDIA RTX2060 Super |           | NVIDIA Tesla T4    |           |
-| NVIDIA RTX2070       |           |                    |           |
-| NVIDIA RTX2080 Super |           |                    |           |
-| NVIDIA RTX2080 Ti    | 2.82 GH/s |                    |           |
+### tonmine miner mining speed
+| tonmin miner         |           | pow-miner-gpu        |           |
+|----------------------|-----------|----------------------|-----------|
+| Graphics card name   | Hash rate | Graphics card name   | Hash rate |
+| NVIDIA GTX1060       |           | NVIDIA GTX1060       | 0.38 GH/s |
+| NVIDIA GTX1070       |           | NVIDIA GTX1070       | 0.52 GH/s |
+| NVIDIA GTX1070 Ti    |           | NVIDIA GTX1070 Ti    | 0.71 GH/s |
+| NVIDIA GTX1080       |           | NVIDIA GTX1080       | 0.86 GH/s |
+| NVIDIA GTX1080 Ti    |           | NVIDIA GTX1080 Ti    | 0.92 GH/s |
+| NVIDIA GTX1660 Ti    |           | NVIDIA GTX1660 Ti    | 0.72 GH/s |
+| NVIDIA GTX1660 Super |           | NVIDIA GTX1660 Super | 0.64 GH/s |
+| NVIDIA RTX2060 Super |           | NVIDIA RTX2060 Super | 0.87 GH/s |
+| NVIDIA RTX2070       |           | NVIDIA RTX2070       |           |
+| NVIDIA RTX2080 Super |           | NVIDIA RTX2080 Super | 1.34 GH/s |
+| NVIDIA RTX2080 Ti    | 2.82 GH/s | NVIDIA RTX2080 Ti    |           |
+| NVIDIA RTX3060       |           | NVIDIA RTX3060       | 0.84 GH/s |
+| NVIDIA RTX3060 Ti    | 1.81 GH/s | NVIDIA RTX3060 Ti    | 1.23 GH/s |
+| NVIDIA RTX3070       | 2.19 GH/s | NVIDIA RTX3070       | 1.45 GH/s |
+| NVIDIA RTX3070 Ti    |           | NVIDIA RTX3070 Ti    | 1.59 GH/s |
+| NVIDIA RTX3080       | 3.3 GH/s  | NVIDIA RTX3080       | 2.01 GH/s |
+| NVIDIA RTX3080 Ti    | 3.91 GH/s | NVIDIA RTX3080 Ti    | 2.39 GH/s |
+| NVIDIA RTX3090       | 3.88 GH/s | NVIDIA RTX3090       | 2.38 GH/s |
+
+### 
