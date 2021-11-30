@@ -1,7 +1,8 @@
 # Ubuntu Nvidia mining client installation
 
 ## 1. cuda environment deployment
-> If your ubuntu does not have nvidia driver or cuda, you need to run cuda installation
+> If your ubuntu does not have nvidia driver or cuda, you need to run cuda installation    
+> [More information](https://developer.nvidia.com/cuda-downloads) about Nvidia dreiver and cuda.
 
 **ubuntu 18.04 cuda installation**
 ```
