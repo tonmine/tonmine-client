@@ -1,3 +1,11 @@
+**Upcoming Events:**
+> * Event Name: Test Mining
+> * Event content: 50% off handling fee
+> * Event time: 3 days
+> * Event date: Unpublished
+
+---
+
 # tonmine-client
 > * The project will release all tonmine.com mining clients
 > * Official website link: https://www.tonmine.com/
