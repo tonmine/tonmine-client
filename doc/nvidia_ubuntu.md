@@ -46,13 +46,17 @@ tar zxvf tonmine-ubuntu.tar.gz
 
 ## 3. Start mining
 
-Mining command description：
+**Mining command description：**
 
 ```
 bash ~/tonmine/autoStart.sh <User email> <User ton address> <worker id>
 ```
+> * `User email` ：When the `worker id` is not in normal mining. An email will be sent to notify the user.
+> * `User ton address`：The user needs to enter the user's ton address. (It is strongly recommended that the address needs to complete the activation process)
+> * `worker id`：The user can set a different `worker id` for each mining machine. This makes it easier to monitor.
 
-Sample mining commands：
+
+**Sample mining commands：**
 ```
 bash ~/tonmine/autoStart.sh tonmine@gmail.com EQCk_WdeFoaO6LCIwpywOEh0DeXAtlIW-xh5agDBDIEsTv9b worker1
 ```
