@@ -9,6 +9,7 @@
 # tonmine-client
 > * The project will release all tonmine.com mining clients
 > * Official website link: https://www.tonmine.com/
+> * Pool address ： [EQCuP47lTuLfZN-LWMxSk0vyxlWxdu4tRW1QJHWqrcrzyxbL](https://ton.sh/address/EQCuP47lTuLfZN-LWMxSk0vyxlWxdu4tRW1QJHWqrcrzyxbL)
 > * Donation address `EQAXaRP7gRTMpa8sx1G1wlWUhaGaYlA4Pk9971ODIoZI1wd3`
 
 
