@@ -31,7 +31,10 @@ bash ~/tonmine/autoStart.sh <User email> <User ton address> <worker id>
 
 Sample mining commands：
 ```
+# If you need background execution tonmine miner. Then you need to enter `screen` here
+screen
+
 bash ~/tonmine/autoStart.sh tonmine@gmail.com EQCk_WdeFoaO6LCIwpywOEh0DeXAtlIW-xh5agDBDIEsTv9b worker1
 ```
 
-> Reminder: If you enter an invalid <User email> <User ton address>, you will not receive a reward. Regarding whether the setting is successful, you can check your account status on toncoin.com after you start mining and a few minutes after submitting the share.
+> Reminder: If you enter an invalid `User email` `User ton address`, you will not receive a reward. Regarding whether the setting is successful, you can check your account status on toncoin.com after you start mining and a few minutes after submitting the share.
