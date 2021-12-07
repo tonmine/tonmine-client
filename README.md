@@ -1,7 +1,7 @@
 **Upcoming Events:**
 > * Event Name: Test Mining
-> * Event content: 50% off handling fee
-> * Event time: 3 days
+> * Event content: 0% off handling fee
+> * Event time: 7 days
 > * Event date: Unpublished
 
 ---
