@@ -41,20 +41,13 @@ cd ~
 sudo rm -r tonmine*
 mkdir tonmine
 cd tonmine
-wget https://github.com/tonmine/tonmine-client/releases/download/v0.2/tonmine-hiveos.tar.gz
-tar zxvf tonmine-hiveos.tar.gz
-pip3 install -r requirements.txt
+wget https://github.com/tonmine/tonmine-client/releases/download/v1.0.0/tonmine-ubuntu-18.04-v1.0.0.tar.gz
+tar zxvf tonmine-ubuntu-18.04-v1.0.0.tar.gz
 ```
 
 **for ubuntu 20.04**
 ```
-cd ~
-sudo rm -r tonmine*
-mkdir tonmine
-cd tonmine
-wget https://github.com/tonmine/tonmine-client/releases/download/v0.2/tonmine-ubuntu.tar.gz
-tar zxvf tonmine-ubuntu.tar.gz
-pip3 install -r requirements.txt
+comming soon
 ```
 
 ## 4. Start mining

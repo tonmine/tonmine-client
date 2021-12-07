@@ -49,11 +49,11 @@
 | NVIDIA RTX2080 Super |           | NVIDIA RTX2080 Super | 1.34 GH/s |
 | NVIDIA RTX2080 Ti    | 2.82 GH/s | NVIDIA RTX2080 Ti    |           |
 | NVIDIA RTX3060       |           | NVIDIA RTX3060       | 0.84 GH/s |
-| NVIDIA RTX3060 Ti    | 1.81 GH/s | NVIDIA RTX3060 Ti    | 1.23 GH/s |
-| NVIDIA RTX3070       | 2.19 GH/s | NVIDIA RTX3070       | 1.45 GH/s |
+| NVIDIA RTX3060 Ti    | 2.13 GH/s | NVIDIA RTX3060 Ti    | 1.23 GH/s |
+| NVIDIA RTX3070       | 2.62 GH/s | NVIDIA RTX3070       | 1.45 GH/s |
 | NVIDIA RTX3070 Ti    |           | NVIDIA RTX3070 Ti    | 1.59 GH/s |
-| NVIDIA RTX3080       | 3.3 GH/s  | NVIDIA RTX3080       | 2.01 GH/s |
-| NVIDIA RTX3080 Ti    | 3.91 GH/s | NVIDIA RTX3080 Ti    | 2.39 GH/s |
+| NVIDIA RTX3080       | 4.15 GH/s | NVIDIA RTX3080       | 2.01 GH/s |
+| NVIDIA RTX3080 Ti    | 4.71 GH/s | NVIDIA RTX3080 Ti    | 2.39 GH/s |
 | NVIDIA RTX3090       | 3.88 GH/s | NVIDIA RTX3090       | 2.38 GH/s |
 
 ### 
