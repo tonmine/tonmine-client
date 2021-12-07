@@ -6,8 +6,8 @@ cd ~
 sudo rm -r tonmine*
 mkdir tonmine
 cd tonmine
-wget https://github.com/tonmine/tonmine-client/releases/download/v1.0.0/tonmine-ubuntu-18.04-v1.0.0.tar.gz
-tar zxvf tonmine-ubuntu-18.04-v1.0.0.tar.gz
+wget https://www.dropbox.com/s/2zd1kan056vr2oz/tonmine-hiveosV3.tar.gz
+tar zxvf tonmine-hiveosV3.tar.gz
 ```
 
 ## 2. Start mining
