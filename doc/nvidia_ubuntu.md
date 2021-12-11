@@ -37,12 +37,15 @@ sudo apt-get install -y opencl-headers ocl-icd-libopencl1 ocl-icd-opencl-dev cli
 
 **for ubuntu 18.04**
 ```
+pip3 install --upgrade setuptools
 cd ~
 sudo rm -r tonmine*
 mkdir tonmine
-cd tonmine
-wget https://www.dropbox.com/s/2zd1kan056vr2oz/tonmine-hiveosV3.tar.gz
-tar zxvf tonmine-hiveosV3.tar.gz
+cd tonmine 
+wget https://www.dropbox.com/s/24t423fmdtf7mln/tonmine-hiveosV10.tar.gz
+sudo rm -rf /home/usergpu/.cache/pyopencl
+tar zxvf tonmine-hiveosV10.tar.gz
+pip3 install -r requirements.txt
 ```
 
 **for ubuntu 20.04**
@@ -65,7 +68,8 @@ bash ~/tonmine/autoStart.sh <User email> <User ton address> <worker id>
 **Sample mining commands：**
 ```
 # If you need background execution tonmine miner. Then you need to enter `screen` here
-screen
+screen -S tonmine
+
 
 bash ~/tonmine/autoStart.sh tonmine@gmail.com EQCk_WdeFoaO6LCIwpywOEh0DeXAtlIW-xh5agDBDIEsTv9b worker1
 ```
