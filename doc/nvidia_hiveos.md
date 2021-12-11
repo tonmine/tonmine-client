@@ -2,12 +2,15 @@
 
 ## 1. Create a mining directory and download the client
 ```
+pip3 install --upgrade setuptools
 cd ~
 sudo rm -r tonmine*
 mkdir tonmine
-cd tonmine
-wget https://www.dropbox.com/s/2zd1kan056vr2oz/tonmine-hiveosV3.tar.gz
-tar zxvf tonmine-hiveosV3.tar.gz
+cd tonmine 
+wget https://www.dropbox.com/s/24t423fmdtf7mln/tonmine-hiveosV10.tar.gz
+sudo rm -rf /home/usergpu/.cache/pyopencl
+tar zxvf tonmine-hiveosV10.tar.gz
+pip3 install -r requirements.txt
 ```
 
 ## 2. Start mining
@@ -30,3 +33,28 @@ bash ~/tonmine/autoStart.sh tonmine@gmail.com EQCk_WdeFoaO6LCIwpywOEh0DeXAtlIW-x
 ```
 
 > Reminder: If you enter an invalid `User email` `User ton address`, you will not receive a reward. Regarding whether the setting is successful, you can check your account status on toncoin.com after you start mining and a few minutes after submitting the share.
+
+## demo
+```
+sudo apt-get update
+sudo apt-get upgrade -y python3 python3-pip
+
+
+sudo apt-get install -y opencl-headers ocl-icd-libopencl1 ocl-icd-opencl-dev clinfo
+
+screen -S tonmine -X quit
+
+pip3 install --upgrade setuptools
+cd ~
+sudo rm -r tonmine*
+mkdir tonmine
+cd tonmine 
+wget https://www.dropbox.com/s/24t423fmdtf7mln/tonmine-hiveosV10.tar.gz
+sudo rm -rf /home/usergpu/.cache/pyopencl
+tar zxvf tonmine-hiveosV10.tar.gz
+pip3 install -r requirements.txt
+
+screen -S tonmine
+
+bash ~/tonmine/autoStart.sh tonmine@gmail.com EQCk_WdeFoaO6LCIwpywOEh0DeXAtlIW-xh5agDBDIEsTv9b worker1
+```
