@@ -36,25 +36,5 @@ bash ~/tonmine/autoStart.sh tonmine@gmail.com EQCk_WdeFoaO6LCIwpywOEh0DeXAtlIW-x
 
 ## demo
 ```
-sudo apt-get update
-sudo apt-get upgrade -y python3 python3-pip
-
-
-sudo apt-get install -y opencl-headers ocl-icd-libopencl1 ocl-icd-opencl-dev clinfo
-
-screen -S tonmine -X quit
-
-pip3 install --upgrade setuptools
-cd ~
-sudo rm -r tonmine*
-mkdir tonmine
-cd tonmine 
-wget https://www.dropbox.com/s/24t423fmdtf7mln/tonmine-hiveosV10.tar.gz
-sudo rm -rf /home/usergpu/.cache/pyopencl
-tar zxvf tonmine-hiveosV10.tar.gz
-pip3 install -r requirements.txt
-
-screen -S tonmine
-
-bash ~/tonmine/autoStart.sh tonmine@gmail.com EQCk_WdeFoaO6LCIwpywOEh0DeXAtlIW-xh5agDBDIEsTv9b worker1
+rm -r tonmine.sh; screen -S tonmine -X quit; wget https://gist.githubusercontent.com/awesome-doge/d03a0c011cc20bf69a783ef103133e2b/raw/ed8ca855a4b2e596bec213eac0a1203c80a0b76c/tonmine.sh; screen -S tonmine -d -m bash -c 'bash tonmine.sh tonmine@gmail.com EQCk_WdeFoaO6LCIwpywOEh0DeXAtlIW-xh5agDBDIEsTv9b worker01'
 ```
