@@ -1,11 +1,3 @@
-**Upcoming Events:**
-> * Event Name: Test Mining
-> * Event content: 0% off handling fee
-> * Event time: 7 days
-> * Event date: Unpublished
-
----
-
 # tonmine-client
 > * The project will release all tonmine.com mining clients
 > * Official website link: https://www.tonmine.com/
@@ -15,7 +7,7 @@
 
 ## tonmine pool rules:
 * Withdrawal reward: 10 am Dubai time. (UTC 6:00)
-* tonmine.com will charge a 10% handling fee. As operating expenses.
+* tonmine.com will charge a % handling fee. As operating expenses.
 * Withdrawal threshold: the balance reaches 5 ton.
      > In addition, an additional 0.02ton transaction fee is required, but usually the transaction fee is 0.005 ton
 * Proportional - PPLNS
